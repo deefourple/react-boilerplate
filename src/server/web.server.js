@@ -9,7 +9,7 @@ export default class WebServer {
   start() {
     return new Promise((resolve, reject) => {
       try {
-        this.server = this.app.listen(3001, function() {
+        this.server = this.app.listen(3000, function() {
           resolve();
         })
       } catch (e) {
